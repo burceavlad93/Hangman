@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,500&family=Roboto:wght@100;400&display=swap');
+
+.game-on {
+    height: 100vh;
+    background: linear-gradient(to top left, rgb(23, 99, 13), #333);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.game-off {
+    height: 100vh;
+    background: linear-gradient(to top left, #a70909, #333);
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.main {
+    display: flex;
+    font-size: 55px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game-end {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    font-size: 300%;
+}
+
+h2 {
+    margin-top: -50px;
+}
+
+.btn,
+.button {
+    background-color: #e7e7e7;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 20px 15px 20px;
+    margin-left: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.reset-btn {
+    font-size: 35px;
+    padding: 25px 30px 25px 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+#tittle,
+#word {
+    margin-top: 50px;
+}
+
+#lives,
+#help,
+#letters {
+    margin-top: 70px;
+}
